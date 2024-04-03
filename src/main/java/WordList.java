@@ -16,7 +16,7 @@ public class WordList
         amount++;
       }
     }
-    
+    return amount;
   }
 
   public void removeWordsOfLength(int len)
